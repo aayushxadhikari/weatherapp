@@ -8,7 +8,6 @@ sealed class WeatherBlocState extends Equatable {
 }
 
 final class WeatherBlocInitial extends WeatherBlocState {}
-
 final class WeatherBlocLoading extends WeatherBlocState {}
 final class WeatherBlocFailure extends WeatherBlocState {}
 final class WeatherBlocSuccess extends WeatherBlocState {
